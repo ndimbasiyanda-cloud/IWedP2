@@ -1,0 +1,79 @@
+/*Default styles*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(235, 226, 226);
+    text-align: center;
+}
+/*Navigation Links*/
+a{
+    text-decoration: none;
+    color: white;
+    background-color: maroon;
+    padding: 10px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: rgb(143, 13, 13);
+}
+/*Main heading h1*/
+h1, h2{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin: 20px;
+    display: inline-block;
+}
+/*Paragraph*/
+p{
+    text-align: center justify;
+    font: 20px;
+    font-style: normal;
+}
+/*Image styling */
+img{
+    display: block;
+    margin: 50px auto;
+    max-width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+/*Image*/
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/*Image*/
+.images img{
+   height: 300px;
+   border-radius: 10px;
+   border: 2px solid mintcream;
+}
+/*Shared container styling*/
+.map-container, 
+.form-container {
+    width: 80%;
+margin: 30px auto;
+border-radius: 10px;
+overflow: hidden; 
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Google Form iFrame*/
+.form-container iframe {
+width: 100%;
+height: 600px;
+border: none;
+}
+/* Optional: Headings above embeds*/
+.embeded-title {
+    text-align: center;
+    margin: 20px;
+    color: #333;
+}
